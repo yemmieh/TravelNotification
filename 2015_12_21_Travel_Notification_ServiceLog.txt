@@ -1,4 +1,0 @@
-21/12/2015 8:36:38 : Entered GetStaffProfile
-21/12/2015 8:36:38 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
-21/12/2015 8:36:40 : Entered GetStaffProfile
-21/12/2015 8:36:40 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
