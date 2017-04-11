@@ -1,0 +1,167 @@
+﻿@model MainTravelClass.ApproverInfo
+
+@{
+    ViewBag.Title = "Edit_Approver";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+          <script src="@Url.Content("~/Scripts/jquery-1.10.2.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.ui.core.min.js")" type="text/javascript"></script>
+
+  <script src="@Url.Content("~/Scripts/jquery.ui.datepicker.min.js")" type="text/javascript"></script>
+   
+    <script src="@Url.Content("~/Scripts/jquery.unobtrusive-ajax.min.js")" type="text/javascript"></script>
+}
+
+
+<div class="contentBody secondcontentBody card" style="margin-top:1px;">
+    <div style="display:block;">
+        <span class="requester_details" align="right">Date: 08/09/2015 04:13 PM<br>Appraisal Stage: Fill Appraisal Form</span>
+    </div>
+</div>
+
+<div class="contentBody secondcontentBody card" style="margin-top:-25px;">
+    <span class="stf_table_title" align="left">Edit Approver</span>
+    <div align="left" class="line"></div>
+    <div class="stf_optionsContainer">
+        <style>
+            .viewTableHeader th a {
+                color: white;
+            }
+        </style>
+       
+
+        @using (Html.BeginForm("UpdateApprover", "Admin", FormMethod.Post, new { @class = "form-horizontal", role = "form", enctype = "multipart/form-data", id = "setupform" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <h4>ApproverInfo</h4>
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @*@Html.HiddenFor(model => model.StaffNumber)*@
+                <div class="form-group">
+                    @Html.LabelFor(model => model.StaffNumber, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(model => model.StaffNumber, new { @class = "form-control", onblur = "getStaffProfile(this.value)" })
+                        @Html.ValidationMessageFor(model => model.StaffNumber, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.name, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.name, new { htmlAttributes = new { @readonly = "readonly", @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.name, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @readonly = "readonly", @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Branch, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Branch, new { htmlAttributes = new { @readonly = "readonly", @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Branch, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Jobtitle, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Jobtitle, new { htmlAttributes = new { @readonly = "readonly", @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Jobtitle, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Grade, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Grade, new { htmlAttributes = new { @readonly = "readonly", @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Grade, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.DeptTitle, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.DeptTitle, new { htmlAttributes = new { @readonly = "readonly", @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.DeptTitle, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group IsAdmin">
+                    <label class="control-label col-md-2">Admin?</label>
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.IsAdmin)
+
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Save" class="btn btn-default" onclick="return confirm('are you sure you want to save this user details?');" />
+                    </div>
+                </div>
+            </div>
+        }
+
+       
+    </div>
+</div>
+
+<script type="text/javascript">
+    function getStaffProfile(Staffnumber) {
+         //alert("got here");
+        var StaffNumber = $("#StaffNumber").val();
+        var name = "";
+        var Email = "";
+
+        $.ajax({
+            type: "POST",
+            url: "/Admin/getProfileDetails",
+            traditional: true,
+            contentType: 'application/json; charset=utf-8',
+            data: JSON.stringify({ StaffNumber: StaffNumber }),
+            success: function (data) {
+                if (data.name == "") {
+                    name = data.name;
+                    $(".web-err").html(Staffnumber + "_" + name);
+                    $("#name").val("");
+                    $("#Email").val("");
+                } else {
+                    // alert("Success");
+                    name = data.name;
+                    Email = data.Email;
+                    Jobtitle = data.Jobtitle;
+                    DeptTitle = data.DeptTitle;
+                    Branch = data.Branch;
+                    Grade = data.Grade;
+
+
+                    $("#name").val(name);
+                    $("#Email").val(Email);
+                    $("#Jobtitle").val(Jobtitle);
+                    $("#DeptTitle").val(DeptTitle);
+                    $("#Branch").val(Branch);
+                    $("#Grade").val(Grade);
+
+                    //  $("#StaffGrade").val(StaffGrade);
+
+                    $(".web-err").html("");
+                }
+
+
+            }, error: function (data) {
+                // alert()
+                console.log(data)
+            }
+        });
+    }
+
+</script>
+

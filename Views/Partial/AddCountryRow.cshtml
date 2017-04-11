@@ -1,0 +1,17 @@
+﻿@model Country
+<tr>
+    <td>
+
+        @Html.TextBox(String.Format("Countries[{0}].Name", Model.Index), Model.Name,
+            new Dictionary<string, object>
+             {
+              { "data-val", "true"},
+              { "data-val-length", "Name cannot exceed 255 characters."} ,
+              { "data-val-length-max", "255"},
+              { "data-val-required", "Name is required" },
+             })
+    </td>
+    <td>
+        <a>Remove Country</a>
+    </td>
+</tr>

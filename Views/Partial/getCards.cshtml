@@ -1,0 +1,10 @@
+﻿@using MvcCheckBoxList.Model
+@model MainTravelClass.CardViewModel
+
+@Html.CheckBoxListFor(model => Model.PostedCards.CardIds,
+                                          model => Model.AvailableCards,
+                                            Card => Card.Id,
+                                        Card => Card.Name,
+                                              model => Model.SelectedCards,
+                                      Position.Vertical)
+   

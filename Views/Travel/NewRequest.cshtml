@@ -1,0 +1,418 @@
+﻿@model MainTravelClass.TravelRequest
+@using MainTravelClass
+@{
+    ViewBag.Title = "NewRequest";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+        <script src="@Url.Content("~/Scripts/jquery-1.10.2.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.ui.core.min.js")" type="text/javascript"></script>
+
+  <script src="@Url.Content("~/Scripts/jquery.ui.datepicker.min.js")" type="text/javascript"></script>
+   
+    <script src="@Url.Content("~/Scripts/jquery.unobtrusive-ajax.min.js")" type="text/javascript"></script>
+}
+}
+<style>
+
+    input[type='text'], select, .button, textarea {
+        width:100%;
+    }
+    .form-control{
+        width:100%;
+    }
+</style>
+
+@*<div class="contentBody secondcontentBody cardw" style="margin-top:1px;">
+    <div style="display:block;">        
+    </div>
+</div>*@
+<div class="contentBody secondcontentBody card" style="text-align:center;font-size:20px;margin-top:27px;margin-bottom:5px;">
+    <span class="stf_table_title" style="color: #076BD8;font-size:20px;">Fill Request Form </span>
+</div>
+<div class="contentBody secondcontentBody card" style="margin-top:6px;">
+    <div style="display:block;">
+        <span class="requester_details" align="right">Date: @DateTime.Now<br>Request Stage: Initiation Stage</span>
+    </div>
+</div>
+@using (Html.BeginForm("AddRequest", "Travel",  FormMethod.Post, new { @class = "form-horizontal", role = "form", enctype = "multipart/form-data" }))
+
+        {
+<div class="contentBody secondcontentBody card" style="margin-top:-25px;">
+    <span class="stf_table_title" align="left">Staff Details »</span>
+    <div align="left" class="line"></div>
+    <div class="stf_optionsContainer">
+        <div class="row">
+            <div class="col-md-3">
+                @Html.HiddenFor(model => model.id)
+                @Html.HiddenFor(model => model.Accountdetails.DomicileBranch)
+                @Html.HiddenFor(model => model.Accountdetails.DomicileBranchCode)
+            
+                <h2>Staff Name:</h2>
+                @Html.TextBoxFor(model => model.StaffProfile.StaffName, new { @readonly = "readonly", id = "Staff_Name", @class = "no-border"})
+            </div>
+            <div class="col-md-3">
+                <h2>Staff Number:</h2>
+
+                @Html.TextBoxFor(model => model.StaffProfile.StaffNo, new { @readonly = "readonly", id = "Staff_Number", @class = "no-border" })
+
+
+            </div>
+            <div class="col-md-3">
+                <h2>Grade:</h2>
+                @Html.TextBoxFor(model => model.StaffProfile.level, new { @readonly = "readonly", id = "Grade", @class = "no-border" })
+                @*@Html.DropDownListFor(model => model.RequestType, (SelectList)ViewBag.RequestType)*@
+
+            </div>
+            <div class="col-md-3">
+                <h2>Job Function:</h2>
+                @Html.TextBoxFor(model => model.StaffProfile.jobtitle, new { @readonly = "readonly", id = "Job_Function", @class = "no-border" })
+            </div>
+            </div>
+
+        <br /><br />
+        <div class="row">
+            <div class="col-md-3">
+                <h2>Branch:</h2>
+                @Html.HiddenFor(model => model.StaffProfile.BranchCode)
+                @Html.TextBoxFor(model => model.StaffProfile.Branch, new { @readonly = "readonly", id = "Branch", @class = "no-border" })
+            </div>
+            <div class="col-md-3">
+                <h2>Department:</h2>
+                @Html.TextBoxFor(model => model.StaffProfile.Dept, new { @readonly = "readonly", id = "Department", @class = "no-border" })
+
+            </div>
+
+
+            <div class="col-md-3">
+                <h2>Confirmation Status:</h2>
+                @Html.TextBoxFor(model => model.StaffProfile.Confirm, new { @readonly = "readonly", id = "Confirmed", @class = "no-border" })
+                @*@Html.DropDownListFor(model => model.RequestType, (SelectList)ViewBag.RequestType)*@
+
+            </div>
+
+            <div class="col-md-3">
+                <h2>E-Mail:</h2>
+                @Html.TextBoxFor(model => model.StaffProfile.Email, new { @readonly = "readonly", id = "Email", @class = "no-border" })
+
+                @*@Html.DropDownListFor(model => model.RequestType, (SelectList)ViewBag.RequestType)*@
+
+            </div>
+
+
+
+        </div>
+        </div>
+    </div>
+
+<div class="contentBody secondcontentBody card" style="margin-top:-25px;">
+    <span class="stf_table_title" align="left">Request Details »</span>
+    <div align="left" class="line"></div>
+    <div class="stf_optionsContainer">
+        <p style="margin-bottom:10px;color:#0e70b1">Please enter Customer's 10 Digit Account No</p>
+        <div class="row">
+            <div class="col-md-3">              
+                <h2>Account Number:</h2>
+                @Html.TextBoxFor(model => model.Accountdetails.AccountNo, new { id = "Account_Number" , onblur = "getStaffProfile(this.value)"})
+                <span class='web-err' style="color:red;font-size:medium"></span>
+            </div>
+            <div class="col-md-3">
+                <h2>Account Name:</h2>
+                @Html.TextBoxFor(model => model.Accountdetails.Account_Name, new { @readonly = "readonly", id = "Account_Name", @class = "no-border" })
+            </div>
+            <div class="col-md-3">
+
+               
+
+                <h2>Country:</h2>
+                @*@Html.TextBoxFor(model => model.Accountdetails.Account_Name, new { id = "Country" })*@
+                @Html.DropDownListFor(m => m.country.CountryName, Model.country.countryList, "--Select a country--", new { @class = "form-control " })
+                @*@Html.DropDownListFor(model => model.country.CountryName, new SelectList(new AppClass().getCountry(), "value", "text", new { @class = "form-control" }))*@
+                @*@Html.DropDownListFor(m => m.RequestBranch, Model.RequestBranchList, "Select a branch", new { @class = "form-control" })*@
+            </div>
+        </div>
+
+        <br/><br/>
+
+        <div class="row">
+            <div class="col-md-3">
+
+                <h2>Card(s):</h2>
+                <div id="CardDiv"></div>
+               
+            </div>
+        </div>
+            <div class="row">
+                
+                <div class="col-md-3">
+                    <div id="requestList"></div>
+                </div>
+
+                <div class="col-md-9">
+
+                    <table id="countries" class="viewTable">
+                        <thead>
+                            <tr>
+                                <th class="viewTableHeader">Country</th>
+                                <th class="viewTableHeader">Start Date</th>
+                                <th class="viewTableHeader">End Date</th>
+                                <th class="viewTableHeader">Action</th>
+                               
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @*@for(int i=0; i < Model.Countries.Count; i++)
+                {
+                @Html.EditorFor(m => m.Countries[i])
+                }*@
+                        </tbody>
+                    </table>
+                    <span style="color:#0e70b1">Please click on Country field to add more countries</span>
+                </div>
+
+                <div class="col-md-3">
+                    <h2>Additional Info :</h2>
+                    @Html.TextBoxFor(model => model.Comment, new { id = "Comment" })
+                </div>
+            </div>
+        </div>
+</div>
+<div class="contentBody secondcontentBody card" style="margin-top:-25px;">
+    <div class="stf_optionsContainer">
+        <input class="submitBtn buttons-blue buttons" type="submit" name="btnSubmit" />
+      
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-3 col-md-9">          
+            <span class='web-error' style="color:red;font-size:medium">@ViewBag.ErrorMessage</span>
+           
+        </div>
+    </div>
+</div>
+   
+}
+@Scripts.Render("~/bundles/jqueryui")
+<script type="text/javascript">
+    //$(function () {
+    //    $('input[type=datetime]').datepicker({
+    //        dateFormat: "yy/mm/dd 12:00:00",
+    //        changeMonth: true,
+    //        changeYear: true,
+    //        yearRange: "-10:+0"
+    //    });
+    //});
+
+    $(document).ready(function () {
+        var w = 600;
+        function showDialog(_t, _b, _w) {
+            _t = "<div class='dialog-title'>" + _t + "</div><div class='dialog-body'>" + _b + "</div>";
+            var $dialog = $('<div id="div_ReRouteFrame"></div>')
+            .html(_t)
+            .dialog({
+                modal: true,
+                width: _w,
+                height: "auto",
+                resizable: false,
+                buttons: {
+                    Ok: function () {
+                        $(this).dialog("destroy");
+                    }
+                }
+            });
+            $dialog.dialog('open');
+            $(".ui-dialog-titlebar").hide();
+        }
+
+        $('.submitBtn').click(function () {       
+       
+            if ($.trim($("#Staff_Name").val()) == "") {
+                alert("Staff Name field cannot be empty");
+                return false;
+            }
+
+            if ($.trim($("#Staff_Number").val()) == "") {
+                alert("Staff Number field cannot be empty");
+                 return false;
+            }
+
+            if ($.trim($("#Grade").val()) == "") {
+                alert("Grade field cannot be empty");
+                return false;
+            }
+
+
+            if ($.trim($("#Account_Number").val()) == "") {
+                alert("Please provide a valid Account Number");
+                $('#Account_Number').focus(); return false;
+            }
+
+            if ($.trim($("#Account_Name").val()) == "") {
+                alert("Account Name cannot be empty");
+                $('#Account_Name').focus(); return false;
+            }
+
+            if ($('input[name="PostedCards.CardIds"]:checked').length <= 0) {
+                alert("please select at least`one card type")
+                return false;
+            }
+            if ($('.selectedCountryClass').length <= 0) {
+                alert("Please select at least one country");
+                return false;
+            }
+
+            var country_From_Date = $(".from_date").map(function () { return $(this).val().toUpperCase(); }).get();
+            var countryfromdate = country_From_Date;
+
+            var country_To_Date = $(".to_date").map(function () { return $(this).val().toUpperCase(); }).get();
+            var countrytodate = country_To_Date;
+           // showDialog("Date", "Please select Start(date) for selected country.", w);
+            if (countryfromdate == '') {
+                alert("Please select Start(date) for selected country.");
+                
+                //alert("Please select from(date) for selected country.");
+                return false;
+            }
+            if (countrytodate == '') {
+                //("Please select to(date) for selected country.");
+                alert("Please select End(date) for selected country..");
+                return false;
+            }
+
+            
+            var Splittedcheckcountryfromdate = countryfromdate.toString().split(",");         
+            for (i = 0 ; i < Splittedcheckcountryfromdate.length ; i++) {
+                if (Splittedcheckcountryfromdate[i] == "") {
+                    alert("Please ensure you fill all date fields.");                  
+                    return false;
+                }
+            }
+
+            var Splittedcheckcountrytodate = countrytodate.toString().split(",");
+            for (i = 0 ; i < Splittedcheckcountrytodate.length ; i++) {
+                if (Splittedcheckcountrytodate[i] == "") {
+                    showDialog("Date", "Please ensure you fill all date fields.", w);
+                    //	alert("please ensure you fill all date fields")
+                    return false;
+                }
+            }
+
+            for (i = 0 ; i < Splittedcheckcountrytodate.length; i++) {
+                if (Splittedcheckcountrytodate[i] == "") {
+                    showDialog("Date", "Please ensure you fill all date fields.", w);
+                    //	alert("please ensure you fill all date fields")
+                    return false;
+                }
+            }
+
+            if (!confirm("Are you sure you want to submit this request?")) {
+                return false;
+            }
+               $(".buttons").addClass("buttons-disabled").prop("disabled", true);
+          //  alert("got here");
+            document.forms[1].submit();
+        });
+
+    })
+     
+        function getStaffProfile(AccNo) {
+            //alert(AccNo)
+            var StaffNumber = "";
+            var StaffName   = "";
+            var StaffGrade  = "";
+
+            $.ajax({
+                type: "POST",
+                url: "../Travel/getActDetails",
+                traditional: true,
+                contentType: 'application/json; charset=utf-8',
+                data: JSON.stringify({ AccNo: AccNo }),
+                success: function (data) {
+                    if (data[0] == undefined || data[0] == null) {
+                        //alert("alert")
+                        Account_Name = data.Account_Name;
+                        AccountNo = data.AccountNo;
+                        StaffGrade = data.grade_code;
+
+                        $("#Account_Name").val("");
+                        $("#StaffNumber").val("");
+                   //     $("#StaffGrade").val("");
+
+                        $(".web-err").html("Invalid or wrong Account");
+
+                    } else {
+                       // alert("Success");
+                        Account_Name = data[0].Account_Name;
+                        AccountNo = data[0].AccountNo;
+                        DomicileBranch = data[0].DomicileBranch;
+                        DomicileBranchCode = data[0].DomicileBranchCode;
+                        $("#Account_Name").val(Account_Name);
+                        $("#AccountNo").val(AccountNo);
+                        $("#Accountdetails_DomicileBranch").val(DomicileBranch);
+                        $("#Accountdetails_DomicileBranchCode").val(DomicileBranchCode);
+                        if (Account_Name == "") {
+                            $("#CardDiv").html("");
+                        }
+                        var AccNo = AccountNo;
+                       // alert(AccNo);
+                        $("#CardDiv").load('@(Url.Action("getCards", "Partial", null, Request.Url.Scheme))?AccNo=' + AccNo);                      //  $("#StaffGrade").val(StaffGrade);
+
+                        $(".web-err").html("");
+                    }
+                 
+
+                }, error: function (data) {
+                   // alert()
+                    console.log(data)
+                }
+            });
+        }
+
+
+
+
+    $('#country_CountryName').change(function () {
+        var nextIndex = $("table#countries tbody tr").length;
+        var newCountry = $('#country_CountryName').val().toLowerCase();
+       // alert(nextIndex);
+        //alert(newCountry)
+        $.ajax({
+            type: "POST",
+            url: "../Partial/AddCountry",
+            traditional: true,
+            contentType: 'application/json; charset=utf-8',
+            data: JSON.stringify({ index: nextIndex,CountryName:newCountry}),
+           // data: { index: nextIndex,CountryName:newCountry },
+            success: function (results) {
+                $("table#countries tbody").append(results);
+            }
+        });
+    });
+
+    $("table").on("click", ".delete-country", function () {
+        $(this).closest('tr').hide();
+        $(this).prev('input').val('true');
+    });
+
+  
+
+
+    showdatebox($(".datebox"));
+
+    function showdatebox(v) {
+      //  alert("got here")
+        var MAXDATE = "48M +0D";
+        var MINDATE = "-0M +0D";
+        var DATEFT = "dd/mm/yy";
+        v.datepicker({
+            dateFormat: DATEFT,
+            //beforeShowDay: noWeekendsOrHolidays,
+            maxDate: MAXDATE,
+            //minDate: MINDATE,
+            showOtherMonths: true,
+            selectOtherMonths: true,
+            changeMonth: false,
+            yearRange: "-2:+0",
+            changeYear: true
+        });
+    }
+
+</script>

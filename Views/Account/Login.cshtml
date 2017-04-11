@@ -1,0 +1,84 @@
+﻿@using TravelNotification.Models
+@model LoginViewModel
+
+@{
+    ViewBag.Title = "Log in";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+<div class="contentBody secondcontentBody card" style="margin-top:1px;">
+    <div style="display:block;">
+
+    </div>
+</div>
+
+<div class="contentBody secondcontentBody card" style="margin-top:-25px;">
+    <span class="stf_table_title" align="left">Login</span>
+    <br />
+    <div align="left" class="line"></div>
+    <div class="stf_optionsContainer">
+
+        <br />
+        <div class="row">
+            <div class="col-md-8">
+                <section id="loginForm">
+                    @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <h4>Use your Email Login Details..</h4>
+                        <br />
+                        <hr />
+                        <br />
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="form-group">
+                            @*@Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })*@
+                            <label class="col-md-2 control-label">Email Username</label>
+                                <div class="col-md-10">
+                                    @Html.TextBoxFor(m => m.Email, new { @class = "" })
+                                    @*@Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })*@
+                                </div>
+</div>
+                        <div class="form-group">
+                            @*@Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })*@
+                            <label class="col-md-2 control-label">Email Password</label>
+                            <div class="col-md-10">
+                                @Html.PasswordFor(m => m.Password, new { @class = "", @style = "width:35%;height:30px;border: #ddd 1px solid;" })
+                                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        @*<div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <div class="checkbox">
+                                    @Html.CheckBoxFor(m => m.RememberMe)
+                                    @Html.LabelFor(m => m.RememberMe)
+                                </div>
+                            </div>
+                        </div>*@
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="Log in" class="btn btn-default" />
+                            </div>
+                        </div>
+                        @*<p>
+                            @Html.ActionLink("Register as a new user", "Register")
+                        </p>*@
+                        @* Enable this once you have account confirmation enabled for password reset functionality
+                            <p>
+                                @Html.ActionLink("Forgot your password?", "ForgotPassword")
+                            </p>*@
+                    }
+                </section>
+            </div>
+            <div class="col-md-4">
+                @*<section id="socialLoginForm">
+                    @Html.Partial("_ExternalLoginsListPartial", new ExternalLoginListViewModel { Action = "ExternalLogin", ReturnUrl = ViewBag.ReturnUrl })
+                </section>*@
+            </div>
+        </div>
+
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

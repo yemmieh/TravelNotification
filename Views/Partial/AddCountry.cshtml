@@ -1,0 +1,109 @@
+﻿@model MainTravelClass.Country
+<tr>
+    <td>@Html.TextBoxFor(m => Model.CountryName, new {@readonly = "readonly", @class = "form-control selectedCountryClass"  })</td>
+    <td>@Html.TextBoxFor(model => model.SelectedStartDates, new { type = "datetime", @class = "datepicker form-control datebox from_date from", placeholder = "Start Date", onclick = "javascript:showdatebox();", id = Model.CountryName.Replace(" ", "") })</td>
+    <td>@Html.TextBoxFor(model => model.SelectedEndDates, new { type = "datetime", @class = "datepicker form-control datebox to_date to", placeholder = "End Date", onclick = "javascript:showdatebox();", id = Model.CountryName.Replace(" ","") + "_1" })</td>
+    <td style="text-align:center;color:red">
+        @Html.HiddenFor(m => Model.IsDeleted)
+
+        <a class="delete-country" style="text-align:center;color:red">
+            <span class="glyphicon glyphicon-trash" style="text-align:center;color:red"></span>
+        </a>
+    </td>
+</tr>
+<script type="text/javascript">
+  
+
+    //$(function () {
+    //    var MAXDATE = "2M +0D";
+    //    var MINDATE = "-1M +0D";
+    //    var DATEFT = "dd-mm-yy";
+    //    $('input[type=datetime]').datepicker({
+    //        dateFormat: DATEFT,
+    //        //beforeShowDay: noWeekendsOrHolidays,
+    //        maxDate: MAXDATE,
+    //        minDate: MINDATE,
+    //        showOtherMonths: true,
+    //        selectOtherMonths: true,
+    //        changeMonth: true,
+    //        yearRange: "-9:+0",
+    //        changeYear: true
+    //    });
+    //});
+
+    showdatebox($(".datebox"));
+
+    //function showdatebox(v) {
+    //    //  alert("got here")
+    //    var MAXDATE = "48M +0D";
+    //    var MINDATE = "-0M +0D";
+    //    var DATEFT = "dd/mm/yy";
+    //    v.datepicker({
+    //        dateFormat: DATEFT,
+    //        //beforeShowDay: noWeekendsOrHolidays,
+    //        maxDate: MAXDATE,
+    //        //minDate: MINDATE,
+    //        showOtherMonths: true,
+    //        selectOtherMonths: true,
+    //        changeMonth: false,
+    //        yearRange: "-2:+0",
+    //        changeYear: true
+    //    });
+    //}
+
+    function showdatebox(v) {
+
+        v = v || $(".datebox");
+
+        var MAXDATE = "48M +0D";
+        var MINDATE = "-0M +0D";
+        v.not(" .from , .to ").datepicker({
+            dateFormat: DATEFT,
+            //beforeShowDay: noWeekendsOrHolidays,
+            maxDate: MAXDATE,
+            minDate: MINDATE,
+            showOtherMonths: true,
+            selectOtherMonths: true,
+            changeMonth: true,
+            yearRange: "-200+0",
+            changeYear: true
+        });
+
+        if ($(".from").length > 0) {
+
+            var MAXDATE = "48M +0D";
+            var MINDATE = "-0M +0D";
+            var DATEFT = "dd/mm/yy";
+
+            $(".from").datepicker({
+                dateFormat: DATEFT,
+                maxDate: MAXDATE,
+                minDate: MINDATE,
+                changeMonth: true,
+                changeYear: true,
+                /*onClose: function( selectedDate ) {
+                    $("#"+$(this).attr("id")+"_1").datepicker( "option", "minDate", selectedDate );
+                },*/
+                onSelect: function (selectedDate) {
+                    $("#" + $(this).attr("id") + "_1").datepicker("option", "minDate", selectedDate);
+                }
+            });
+
+            $(".to").datepicker({
+                dateFormat: DATEFT,
+                maxDate: MAXDATE,
+                minDate: MINDATE,
+                changeMonth: true,
+                changeYear: true,
+                /*onClose: function( selectedDate ) {
+                    $("#"+$(this).attr("id").replace("_1","")).datepicker( "option", "maxDate", selectedDate );
+                },*/
+                onSelect: function (selectedDate) {
+                    $("#" + $(this).attr("id").replace("_1", "")).datepicker("option", "maxDate", selectedDate);
+                }
+            });
+        }
+    }
+    </script>
+
+

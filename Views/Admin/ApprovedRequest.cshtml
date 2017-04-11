@@ -1,0 +1,121 @@
+﻿@model IEnumerable<MainTravelClass.TravelRequest>
+
+
+<div class="contentBody secondcontentBody card" style="margin-top:1px;">
+    <div style="display:block;">
+        <span class="requester_details" align="right">Date: 08/09/2015 04:13 PM<br>Appraisal Stage: Fill Appraisal Form</span>
+    </div>
+</div>
+
+<div class="contentBody secondcontentBody card" style="margin-top:-25px;">
+    <span class="stf_table_title" align="left">Approved Request</span>
+    <div align="left" class="line"></div>
+    <div class="stf_optionsContainer">
+        <style>
+            .viewTableHeader th a {
+                color: white;
+            }
+        </style>
+        @{
+            ViewBag.Title = "Approved Request";
+            Layout = "~/Views/Shared/_Layout.cshtml";
+            WebGrid grid = new WebGrid(Model, rowsPerPage: 50);
+        }
+
+        @if (Model != null && Model.Count() > 0)
+        {
+            ViewBag.HasGrid = true;
+            int rowNum = 0;
+            @grid.GetHtml(
+
+    tableStyle: "viewTable",
+    fillEmptyRows: false,
+    headerStyle: "viewTableHeader",
+    mode: WebGridPagerModes.All,
+    firstText: "<< First",
+    previousText: "< Prev",
+    nextText: "Next >",
+    lastText: "Last >>",
+
+    columns: new[]
+    {
+        grid.Column("S/NO",format: item => rowNum = rowNum + 1),
+        grid.Column("StaffProfile.StaffName","INITIATOR NAME"),
+        //grid.Column(header: "Account Name", format: (item) =>new HtmlString( Html.ActionLink((string)item.Accountdetails.Account_Name, "ExplodeTravelrequest", new { id = item.id } ).ToString())),
+        grid.Column("ACCOUNT NAME", format: (item) => Html.ActionLink((string)item.Accountdetails.Account_Name, "ExplodeTravelrequest", "Travel", new { id = item.id }, null)),
+
+        grid.Column("Accountdetails.AccountNo","ACCOUNT NUMBER"  ),
+        grid.Column("StaffProfile.Branch","BRANCH"),
+        grid.Column("ApprovalStage","APPROVAL STAGE"),
+        grid.Column( "APPROVERS",
+                        format: @<a href="javascript:getApprovers('@item.id');"><span class="glyphicon glyphicon-user"></span></a>,
+                        style:"text-center"
+                        ),
+        grid.Column("Date_Submitted","DATE SUBMITTED")
+   })
+        }
+        else
+        {
+            <p>No Request</p>
+        }
+
+    </div>
+</div>
+
+<script language="javascript" type="text/javascript">
+
+    function getApprovers(workflowid) {
+        console.log(workflowid.toString());
+        $.ajax({
+            type: "POST",
+            url: "/Travel/GetApprovers",
+            traditional: true,
+            contentType: 'application/json; charset=utf-8',
+            data: JSON.stringify({ WorkflowID: workflowid }),
+            success: function (data) {
+                console.log(data)
+                //alert(data);
+                if (data != undefined || data[0] != null) {
+                    //alert(data.name);
+                    if (data.employee_number == "" || data.employee_number == "Error") {
+                        alert(data.name);
+                    } else {
+                        data = "APPROVERS:\n\n" + data.toString().replace(/,/g, "\n")
+                        alert(data);
+                    }
+                }
+
+                /*var StaffName = "";
+
+                if (data[0] == undefined || data[0] == null) {
+                    StaffName = data.name;
+                    StaffNumber = data.employee_number;
+                    StaffGrade = data.grade_code;
+
+                    $("#StaffName").val("");
+                    $("#StaffNumber").val("");
+                    $("#StaffGrade").val("");
+
+                    $(".web-err").html(StaffNumber + "_" + StaffName);
+
+                } else {
+                    StaffName = data[0].name;
+                    StaffNumber = data[0].employee_number;
+                    StaffGrade = data[0].grade_code;
+
+                    $("#StaffName").val(StaffName);
+                    $("#StaffNumber").val(StaffNumber);
+                    $("#StaffGrade").val(StaffGrade);
+
+                    $(".web-err").html("");
+                }*/
+
+            }, error: function (data) {
+                //console.log(data)
+            }
+        });
+    }
+
+</script>
+
+

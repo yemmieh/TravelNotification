@@ -1,0 +1,10 @@
+﻿@model Country
+<tr>
+    <td>@Html.TextBoxFor(m => Model.CountryName, new { @class = "form-control" })</td>
+    <td>
+        @Html.HiddenFor(m => Model.IsDeleted)
+        <a class="delete-country">
+            </span>Delete Country
+        </a>
+    </td>
+</tr>

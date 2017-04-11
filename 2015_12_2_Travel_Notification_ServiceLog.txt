@@ -1,0 +1,962 @@
+02/12/2015 8:15:36 : Entered GetStaffProfile
+02/12/2015 8:15:36 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:15:41 : Entered GetStaffProfile
+02/12/2015 8:15:41 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:16:02 : Entered GetStaffProfile
+02/12/2015 8:16:02 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:16:25 : Entered GetStaffProfile
+02/12/2015 8:16:25 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:20:15 : Entered GetStaffProfile
+02/12/2015 8:20:16 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:20:20 : Entered GetStaffProfile
+02/12/2015 8:20:20 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:20:26 : Entered GetStaffProfile
+02/12/2015 8:20:26 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:20:29 : Entered GetStaffProfile
+02/12/2015 8:20:29 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:21:18 : Entered GetStaffProfile
+02/12/2015 8:21:18 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:21:25 : Entered GetStaffProfile
+02/12/2015 8:21:25 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:21:27 : Entered GetStaffProfile
+02/12/2015 8:21:27 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:21:28 : Entered GetStaffProfile
+02/12/2015 8:21:28 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:21:29 : Entered GetStaffProfile
+02/12/2015 8:21:29 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:21:32 : Entered GetStaffProfile
+02/12/2015 8:21:32 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:21:34 : Entered GetStaffProfile
+02/12/2015 8:21:34 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:21:50 : Entered GetStaffProfile
+02/12/2015 8:21:50 : SearchUserByUserName : Exception!!! The (&((&(objectCategory=Person)(objectClass=User)))(samaccountname=)) search filter is invalid. / 
+02/12/2015 8:21:50 : GetStaffInformation : Exception!!! / Object reference not set to an instance of an object.
+02/12/2015 8:22:44 : Entered GetStaffProfile
+02/12/2015 8:22:44 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:23:00 : Entered GetStaffProfile
+02/12/2015 8:23:00 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:24:28 : Entered GetStaffProfile
+02/12/2015 8:24:28 : SearchUserByUserName : Exception!!! The (&((&(objectCategory=Person)(objectClass=User)))(samaccountname=)) search filter is invalid. / 
+02/12/2015 8:24:28 : GetStaffInformation : Exception!!! / Object reference not set to an instance of an object.
+02/12/2015 8:26:23 : Entered GetStaffProfile
+02/12/2015 8:26:24 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:28:56 : Entered GetStaffProfile
+02/12/2015 8:28:57 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:29:12 : Entered GetStaffProfile
+02/12/2015 8:29:12 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:29:45 : Entered GetStaffProfile
+02/12/2015 8:29:45 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:35:53 : Entered GetStaffProfile
+02/12/2015 8:35:53 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:36:20 : Entered GetStaffProfile
+02/12/2015 8:36:20 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:36:22 : Entered GetStaffProfile
+02/12/2015 8:36:22 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:36:29 : Entered GetStaffProfile
+02/12/2015 8:36:29 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:37:42 : Entered GetStaffProfile
+02/12/2015 8:37:42 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:44:33 : Entered GetStaffProfile
+02/12/2015 8:44:33 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:45:00 : Entered GetStaffProfile
+02/12/2015 8:45:00 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:45:00 : Entered GetStaffProfile
+02/12/2015 8:45:00 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:45:04 : Entered GetStaffProfile
+02/12/2015 8:45:04 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:45:12 : Entered GetStaffProfile
+02/12/2015 8:45:12 : Entered GetStaffProfile
+02/12/2015 8:45:12 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:45:15 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:49:40 : Entered GetStaffProfile
+02/12/2015 8:49:40 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:51:44 : Entered GetStaffProfile
+02/12/2015 8:51:44 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:51:46 : Entered GetStaffProfile
+02/12/2015 8:51:46 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:52:48 : Entered GetStaffProfile
+02/12/2015 8:52:48 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:52:53 : Entered GetStaffProfile
+02/12/2015 8:52:53 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:53:21 : Entered GetStaffProfile
+02/12/2015 8:53:21 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:53:24 : Entered GetStaffProfile
+02/12/2015 8:53:24 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:53:37 : Entered GetStaffProfile
+02/12/2015 8:53:37 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:55:57 : Entered GetStaffProfile
+02/12/2015 8:55:57 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:56:00 : Entered GetStaffProfile
+02/12/2015 8:56:00 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:56:02 : Entered GetStaffProfile
+02/12/2015 8:56:02 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:56:09 : Entered GetStaffProfile
+02/12/2015 8:56:09 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:56:12 : Entered GetStaffProfile
+02/12/2015 8:56:13 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:56:16 : Entered GetStaffProfile
+02/12/2015 8:56:16 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:56:24 : Entered GetStaffProfile
+02/12/2015 8:56:24 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:56:27 : Entered GetStaffProfile
+02/12/2015 8:56:27 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:56:28 : Entered GetStaffProfile
+02/12/2015 8:56:28 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:56:30 : Entered GetStaffProfile
+02/12/2015 8:56:30 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:56:33 : Entered GetStaffProfile
+02/12/2015 8:56:33 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:56:36 : Entered GetStaffProfile
+02/12/2015 8:56:36 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:56:38 : Entered GetStaffProfile
+02/12/2015 8:56:39 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:56:40 : Entered GetStaffProfile
+02/12/2015 8:56:40 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:56:47 : Entered GetStaffProfile
+02/12/2015 8:56:47 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:56:49 : Entered GetStaffProfile
+02/12/2015 8:56:49 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:57:13 : Entered GetStaffProfile
+02/12/2015 8:57:13 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:57:15 : Entered GetStaffProfile
+02/12/2015 8:57:15 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:57:18 : Entered GetStaffProfile
+02/12/2015 8:57:18 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:58:24 : Entered GetStaffProfile
+02/12/2015 8:58:24 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 8:58:26 : Entered GetStaffProfile
+02/12/2015 8:58:26 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 9:00:24 : Entered GetStaffProfile
+02/12/2015 9:00:24 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 9:00:58 : Entered GetStaffProfile
+02/12/2015 9:00:58 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 9:01:00 : Entered GetStaffProfile
+02/12/2015 9:01:00 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 9:01:03 : Entered GetStaffProfile
+02/12/2015 9:01:04 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 9:01:06 : Entered GetStaffProfile
+02/12/2015 9:01:06 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 9:01:08 : Entered GetStaffProfile
+02/12/2015 9:01:08 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 9:01:10 : Entered GetStaffProfile
+02/12/2015 9:01:10 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 9:01:10 : Entered GetStaffProfile
+02/12/2015 9:01:10 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 9:01:12 : Entered GetStaffProfile
+02/12/2015 9:01:12 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 9:01:14 : Entered GetStaffProfile
+02/12/2015 9:01:14 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 9:01:16 : Entered GetStaffProfile
+02/12/2015 9:01:16 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 9:01:18 : Entered GetStaffProfile
+02/12/2015 9:01:18 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 9:01:20 : Entered GetStaffProfile
+02/12/2015 9:01:20 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 9:01:25 : Entered GetStaffProfile
+02/12/2015 9:01:25 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:04:18 : Entered GetStaffProfile
+02/12/2015 10:04:18 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:07:00 : Entered GetStaffProfile
+02/12/2015 10:07:00 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:07:17 : Entered GetStaffProfile
+02/12/2015 10:07:17 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:07:20 : Entered GetStaffProfile
+02/12/2015 10:07:20 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:07:23 : Entered GetStaffProfile
+02/12/2015 10:07:23 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:15:05 : Entered GetStaffProfile
+02/12/2015 10:15:05 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:15:08 : Entered GetStaffProfile
+02/12/2015 10:15:08 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:15:11 : Entered GetStaffProfile
+02/12/2015 10:15:11 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:16:29 : Entered GetStaffProfile
+02/12/2015 10:16:29 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:16:33 : Entered GetStaffProfile
+02/12/2015 10:16:33 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:16:35 : Entered GetStaffProfile
+02/12/2015 10:16:35 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:19:23 : Entered GetStaffProfile
+02/12/2015 10:19:24 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:19:29 : Entered GetStaffProfile
+02/12/2015 10:19:29 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:19:30 : Entered GetStaffProfile
+02/12/2015 10:19:30 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:19:37 : Entered GetStaffProfile
+02/12/2015 10:19:37 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:19:39 : Entered GetStaffProfile
+02/12/2015 10:19:39 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:19:42 : Entered GetStaffProfile
+02/12/2015 10:19:42 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:22:21 : Entered GetStaffProfile
+02/12/2015 10:22:21 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:25:47 : Entered GetStaffProfile
+02/12/2015 10:25:47 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:25:54 : Entered GetStaffProfile
+02/12/2015 10:25:54 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:25:58 : Entered GetStaffProfile
+02/12/2015 10:25:58 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:26:00 : Entered GetStaffProfile
+02/12/2015 10:26:00 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:26:31 : Entered GetStaffProfile
+02/12/2015 10:26:31 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:28:07 : Entered GetStaffProfile
+02/12/2015 10:28:07 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:28:09 : Entered GetStaffProfile
+02/12/2015 10:28:09 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:28:10 : Entered GetStaffProfile
+02/12/2015 10:28:11 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:28:17 : Entered GetStaffProfile
+02/12/2015 10:28:17 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:29:48 : Entered GetStaffProfile
+02/12/2015 10:29:49 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:29:52 : Entered GetStaffProfile
+02/12/2015 10:29:52 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:29:53 : Entered GetStaffProfile
+02/12/2015 10:29:54 : Entered GetStaffProfile
+02/12/2015 10:29:54 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 10:29:54 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 11:51:00 : Entered GetStaffProfile
+02/12/2015 11:51:01 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 11:51:16 : Entered GetStaffProfile
+02/12/2015 11:51:16 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 11:51:18 : Entered GetStaffProfile
+02/12/2015 11:51:18 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 11:51:20 : Entered GetStaffProfile
+02/12/2015 11:51:21 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 11:51:28 : Entered GetStaffProfile
+02/12/2015 11:51:28 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 11:53:13 : Entered GetStaffProfile
+02/12/2015 11:53:13 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 11:53:18 : Entered GetStaffProfile
+02/12/2015 11:53:18 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 11:53:22 : Entered GetStaffProfile
+02/12/2015 11:53:22 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 11:54:20 : Entered GetStaffProfile
+02/12/2015 11:54:20 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 11:54:24 : Entered GetStaffProfile
+02/12/2015 11:54:24 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 11:54:26 : Entered GetStaffProfile
+02/12/2015 11:54:26 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 11:54:28 : Entered GetStaffProfile
+02/12/2015 11:54:28 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 11:54:35 : Entered GetStaffProfile
+02/12/2015 11:54:35 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 11:58:33 : Entered GetStaffProfile
+02/12/2015 11:58:33 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 11:58:36 : Entered GetStaffProfile
+02/12/2015 11:58:36 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 11:58:39 : Entered GetStaffProfile
+02/12/2015 11:58:39 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:02:23 : Entered GetStaffProfile
+02/12/2015 12:02:23 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:02:46 : Entered GetStaffProfile
+02/12/2015 12:02:46 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:03:16 : Entered GetStaffProfile
+02/12/2015 12:03:16 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:03:27 : Entered GetStaffProfile
+02/12/2015 12:03:27 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:03:46 : Entered GetStaffProfile
+02/12/2015 12:03:46 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:04:06 : Entered GetStaffProfile
+02/12/2015 12:04:06 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:04:18 : Entered GetStaffProfile
+02/12/2015 12:04:18 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:06:03 : Entered GetStaffProfile
+02/12/2015 12:06:03 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:07:38 : Entered GetStaffProfile
+02/12/2015 12:07:38 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:07:41 : Entered GetStaffProfile
+02/12/2015 12:07:41 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:07:44 : Entered GetStaffProfile
+02/12/2015 12:07:44 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:07:57 : Entered GetStaffProfile
+02/12/2015 12:07:57 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:30:02 : Entered GetStaffProfile
+02/12/2015 12:30:02 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:30:07 : Entered GetStaffProfile
+02/12/2015 12:30:07 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:30:12 : Entered GetStaffProfile
+02/12/2015 12:30:12 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:30:14 : Entered GetStaffProfile
+02/12/2015 12:30:14 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:33:00 : Entered GetStaffProfile
+02/12/2015 12:33:00 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:36:03 : Entered GetStaffProfile
+02/12/2015 12:36:03 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:36:08 : Entered GetStaffProfile
+02/12/2015 12:36:08 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:36:28 : Entered GetStaffProfile
+02/12/2015 12:36:28 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:36:30 : Entered GetStaffProfile
+02/12/2015 12:36:31 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:36:32 : Entered GetStaffProfile
+02/12/2015 12:36:32 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:36:34 : Entered GetStaffProfile
+02/12/2015 12:36:34 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:36:38 : Entered GetStaffProfile
+02/12/2015 12:36:39 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:37:13 : Entered GetStaffProfile
+02/12/2015 12:37:13 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:37:15 : Entered GetStaffProfile
+02/12/2015 12:37:15 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:37:17 : Entered GetStaffProfile
+02/12/2015 12:37:17 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:37:18 : Entered GetStaffProfile
+02/12/2015 12:37:18 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:38:45 : Entered GetStaffProfile
+02/12/2015 12:38:45 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:40:42 : Entered GetStaffProfile
+02/12/2015 12:40:43 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:40:49 : Entered GetStaffProfile
+02/12/2015 12:40:49 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:40:52 : Entered GetStaffProfile
+02/12/2015 12:40:52 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:40:54 : Entered GetStaffProfile
+02/12/2015 12:40:54 : Entered GetStaffProfile
+02/12/2015 12:40:54 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:40:54 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:42:46 : Entered GetStaffProfile
+02/12/2015 12:42:46 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:42:50 : Entered GetStaffProfile
+02/12/2015 12:42:50 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:43:03 : Entered GetStaffProfile
+02/12/2015 12:43:03 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:43:06 : Entered GetStaffProfile
+02/12/2015 12:43:06 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:43:17 : Entered GetStaffProfile
+02/12/2015 12:43:17 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:43:20 : Entered GetStaffProfile
+02/12/2015 12:43:20 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:43:22 : Entered GetStaffProfile
+02/12/2015 12:43:22 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:43:50 : Entered GetStaffProfile
+02/12/2015 12:43:50 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:43:55 : Entered GetStaffProfile
+02/12/2015 12:43:55 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:43:55 : Entered GetStaffProfile
+02/12/2015 12:43:55 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:44:14 : Entered GetStaffProfile
+02/12/2015 12:44:14 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:44:27 : Entered GetStaffProfile
+02/12/2015 12:44:28 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:44:33 : Entered GetStaffProfile
+02/12/2015 12:44:33 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:45:03 : Entered GetStaffProfile
+02/12/2015 12:45:03 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:45:26 : Entered GetStaffProfile
+02/12/2015 12:45:26 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:45:29 : Entered GetStaffProfile
+02/12/2015 12:45:29 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:45:54 : Entered GetStaffProfile
+02/12/2015 12:45:54 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:48:01 : Entered GetStaffProfile
+02/12/2015 12:48:01 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:48:21 : Entered GetStaffProfile
+02/12/2015 12:48:21 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:48:23 : Entered GetStaffProfile
+02/12/2015 12:48:23 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:48:24 : Entered GetStaffProfile
+02/12/2015 12:48:24 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:48:26 : Entered GetStaffProfile
+02/12/2015 12:48:26 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:48:43 : Entered GetStaffProfile
+02/12/2015 12:48:43 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:48:43 : Entered GetStaffProfile
+02/12/2015 12:48:43 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:49:39 : Entered GetStaffProfile
+02/12/2015 12:49:39 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:49:39 : Entered GetStaffProfile
+02/12/2015 12:49:39 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:50:01 : Entered GetStaffProfile
+02/12/2015 12:50:01 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:52:56 : Entered GetStaffProfile
+02/12/2015 12:52:56 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:53:01 : Entered GetStaffProfile
+02/12/2015 12:53:01 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:53:03 : Entered GetStaffProfile
+02/12/2015 12:53:03 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:53:05 : Entered GetStaffProfile
+02/12/2015 12:53:05 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 12:53:09 : Entered GetStaffProfile
+02/12/2015 12:53:09 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 1:07:35 : Entered GetStaffProfile
+02/12/2015 1:07:35 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 1:07:42 : Entered GetStaffProfile
+02/12/2015 1:07:42 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 1:07:42 : Entered GetStaffProfile
+02/12/2015 1:07:42 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 1:07:46 : Entered GetStaffProfile
+02/12/2015 1:07:46 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 1:07:48 : Entered GetStaffProfile
+02/12/2015 1:07:48 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 1:07:49 : Entered GetStaffProfile
+02/12/2015 1:07:49 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 1:07:58 : Entered GetStaffProfile
+02/12/2015 1:07:58 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 1:08:47 : Entered GetStaffProfile
+02/12/2015 1:08:47 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 1:08:52 : Entered GetStaffProfile
+02/12/2015 1:08:52 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 1:08:53 : Entered GetStaffProfile
+02/12/2015 1:08:53 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 1:08:54 : Entered GetStaffProfile
+02/12/2015 1:08:55 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 1:08:57 : Entered GetStaffProfile
+02/12/2015 1:08:57 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 1:08:58 : Entered GetStaffProfile
+02/12/2015 1:08:58 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 1:09:02 : Entered GetStaffProfile
+02/12/2015 1:09:02 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 1:09:30 : Entered GetStaffProfile
+02/12/2015 1:09:30 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 2:28:33 : Entered GetStaffProfile
+02/12/2015 2:28:34 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 2:28:59 : Entered GetStaffProfile
+02/12/2015 2:28:59 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 2:29:08 : Entered GetStaffProfile
+02/12/2015 2:29:08 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 2:29:10 : Entered GetStaffProfile
+02/12/2015 2:29:10 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 2:29:13 : Entered GetStaffProfile
+02/12/2015 2:29:13 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 2:38:21 : Entered GetStaffProfile
+02/12/2015 2:38:21 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 2:39:38 : Entered GetStaffProfile
+02/12/2015 2:39:38 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 2:43:05 : Entered GetStaffProfile
+02/12/2015 2:43:05 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 2:43:09 : Entered GetStaffProfile
+02/12/2015 2:43:09 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 2:43:12 : Entered GetStaffProfile
+02/12/2015 2:43:12 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 2:43:13 : Entered GetStaffProfile
+02/12/2015 2:43:13 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 2:43:17 : Entered GetStaffProfile
+02/12/2015 2:43:17 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 2:43:31 : Entered GetStaffProfile
+02/12/2015 2:43:31 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 2:43:39 : Entered GetStaffProfile
+02/12/2015 2:43:39 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:05:51 : Entered GetStaffProfile
+02/12/2015 3:05:52 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:05:55 : Entered GetStaffProfile
+02/12/2015 3:05:55 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:05:59 : Entered GetStaffProfile
+02/12/2015 3:05:59 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:06:06 : Entered GetStaffProfile
+02/12/2015 3:06:06 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:06:06 : Entered GetStaffProfile
+02/12/2015 3:06:06 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:06:09 : Entered GetStaffProfile
+02/12/2015 3:06:09 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:06:13 : Entered GetStaffProfile
+02/12/2015 3:06:13 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:06:15 : Entered GetStaffProfile
+02/12/2015 3:06:15 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:06:18 : Entered GetStaffProfile
+02/12/2015 3:06:18 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:06:22 : Entered GetStaffProfile
+02/12/2015 3:06:22 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:06:30 : Entered GetStaffProfile
+02/12/2015 3:06:30 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:06:35 : Entered GetStaffProfile
+02/12/2015 3:06:35 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:06:40 : Entered GetStaffProfile
+02/12/2015 3:06:40 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:06:43 : Entered GetStaffProfile
+02/12/2015 3:06:43 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:06:47 : Entered GetStaffProfile
+02/12/2015 3:06:47 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:06:59 : Entered GetStaffProfile
+02/12/2015 3:06:59 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:07:07 : Entered GetStaffProfile
+02/12/2015 3:07:07 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:07:12 : Entered GetStaffProfile
+02/12/2015 3:07:12 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:07:57 : Entered GetStaffProfile
+02/12/2015 3:07:57 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:08:06 : Entered GetStaffProfile
+02/12/2015 3:08:06 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:10:49 : Entered GetStaffProfile
+02/12/2015 3:10:49 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:10:51 : Entered GetStaffProfile
+02/12/2015 3:10:51 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:10:55 : Entered GetStaffProfile
+02/12/2015 3:10:55 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:10:58 : Entered GetStaffProfile
+02/12/2015 3:10:58 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:11:03 : Entered GetStaffProfile
+02/12/2015 3:11:03 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:11:07 : Entered GetStaffProfile
+02/12/2015 3:11:08 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:11:11 : Entered GetStaffProfile
+02/12/2015 3:11:11 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:11:16 : Entered GetStaffProfile
+02/12/2015 3:11:16 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:11:20 : Entered GetStaffProfile
+02/12/2015 3:11:20 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:11:24 : Entered GetStaffProfile
+02/12/2015 3:11:25 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:11:28 : Entered GetStaffProfile
+02/12/2015 3:11:28 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:11:33 : Entered GetStaffProfile
+02/12/2015 3:11:33 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:11:37 : Entered GetStaffProfile
+02/12/2015 3:11:37 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:11:39 : Entered GetStaffProfile
+02/12/2015 3:11:39 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:11:42 : Entered GetStaffProfile
+02/12/2015 3:11:43 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:11:52 : Entered GetStaffProfile
+02/12/2015 3:11:52 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:12:32 : Entered GetStaffProfile
+02/12/2015 3:12:32 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:12:36 : Entered GetStaffProfile
+02/12/2015 3:12:36 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:12:41 : Entered GetStaffProfile
+02/12/2015 3:12:41 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:12:43 : Entered GetStaffProfile
+02/12/2015 3:12:44 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:12:49 : Entered GetStaffProfile
+02/12/2015 3:12:49 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:12:52 : Entered GetStaffProfile
+02/12/2015 3:12:52 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:12:54 : Entered GetStaffProfile
+02/12/2015 3:12:54 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:13:00 : Entered GetStaffProfile
+02/12/2015 3:13:00 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:13:02 : Entered GetStaffProfile
+02/12/2015 3:13:03 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:13:05 : Entered GetStaffProfile
+02/12/2015 3:13:05 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:13:07 : Entered GetStaffProfile
+02/12/2015 3:13:07 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:13:09 : Entered GetStaffProfile
+02/12/2015 3:13:09 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:13:09 : Entered GetStaffProfile
+02/12/2015 3:13:10 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:13:11 : Entered GetStaffProfile
+02/12/2015 3:13:11 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:13:17 : Entered GetStaffProfile
+02/12/2015 3:13:17 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:13:23 : Entered GetStaffProfile
+02/12/2015 3:13:23 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:13:27 : Entered GetStaffProfile
+02/12/2015 3:13:27 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:13:29 : Entered GetStaffProfile
+02/12/2015 3:13:29 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:13:31 : Entered GetStaffProfile
+02/12/2015 3:13:32 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:13:52 : Entered GetStaffProfile
+02/12/2015 3:13:52 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:14:23 : Entered GetStaffProfile
+02/12/2015 3:14:23 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:14:25 : Entered GetStaffProfile
+02/12/2015 3:14:25 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:14:26 : Entered GetStaffProfile
+02/12/2015 3:14:26 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:14:26 : Entered GetStaffProfile
+02/12/2015 3:14:26 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:14:29 : Entered GetStaffProfile
+02/12/2015 3:14:29 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:14:30 : Entered GetStaffProfile
+02/12/2015 3:14:30 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:14:31 : Entered GetStaffProfile
+02/12/2015 3:14:31 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:14:33 : Entered GetStaffProfile
+02/12/2015 3:14:33 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:14:33 : Entered GetStaffProfile
+02/12/2015 3:14:33 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:14:34 : Entered GetStaffProfile
+02/12/2015 3:14:34 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:14:38 : Entered GetStaffProfile
+02/12/2015 3:14:38 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:48:08 : Entered GetStaffProfile
+02/12/2015 3:48:08 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:48:16 : Entered GetStaffProfile
+02/12/2015 3:48:16 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:48:23 : Entered GetStaffProfile
+02/12/2015 3:48:23 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:48:25 : Entered GetStaffProfile
+02/12/2015 3:48:25 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:51:23 : Entered GetStaffProfile
+02/12/2015 3:51:23 : Entered GetStaffProfile
+02/12/2015 3:51:23 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:51:23 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:54:02 : Entered GetStaffProfile
+02/12/2015 3:54:03 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:54:07 : Entered GetStaffProfile
+02/12/2015 3:54:07 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:54:12 : Entered GetStaffProfile
+02/12/2015 3:54:12 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:54:14 : Entered GetStaffProfile
+02/12/2015 3:54:14 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 3:54:16 : Entered GetStaffProfile
+02/12/2015 3:54:16 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:01:02 : Entered GetStaffProfile
+02/12/2015 4:01:02 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:01:04 : Entered GetStaffProfile
+02/12/2015 4:01:04 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:01:07 : Entered GetStaffProfile
+02/12/2015 4:01:07 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:01:51 : Entered GetStaffProfile
+02/12/2015 4:01:51 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:04:27 : Entered GetStaffProfile
+02/12/2015 4:04:27 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:04:29 : Entered GetStaffProfile
+02/12/2015 4:04:29 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:11:19 : Entered GetStaffProfile
+02/12/2015 4:11:20 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:11:28 : Entered GetStaffProfile
+02/12/2015 4:11:28 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:11:28 : Entered GetStaffProfile
+02/12/2015 4:11:28 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:11:31 : Entered GetStaffProfile
+02/12/2015 4:11:31 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:11:33 : Entered GetStaffProfile
+02/12/2015 4:11:33 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:13:40 : Entered GetStaffProfile
+02/12/2015 4:13:40 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:13:42 : Entered GetStaffProfile
+02/12/2015 4:13:42 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:16:34 : Entered GetStaffProfile
+02/12/2015 4:16:34 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:16:40 : Entered GetStaffProfile
+02/12/2015 4:16:40 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:45:44 : Entered GetStaffProfile
+02/12/2015 4:45:44 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:45:48 : Entered GetStaffProfile
+02/12/2015 4:45:48 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:45:48 : Entered GetStaffProfile
+02/12/2015 4:45:48 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:46:13 : Entered GetStaffProfile
+02/12/2015 4:46:13 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:46:22 : Entered GetStaffProfile
+02/12/2015 4:46:22 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:46:26 : Entered GetStaffProfile
+02/12/2015 4:46:27 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:46:30 : Entered GetStaffProfile
+02/12/2015 4:46:30 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:46:32 : Entered GetStaffProfile
+02/12/2015 4:46:32 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:54:44 : Entered GetStaffProfile
+02/12/2015 4:54:44 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:55:30 : Entered GetStaffProfile
+02/12/2015 4:55:30 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:55:32 : Entered GetStaffProfile
+02/12/2015 4:55:32 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:55:34 : Entered GetStaffProfile
+02/12/2015 4:55:34 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:56:21 : Entered GetStaffProfile
+02/12/2015 4:56:21 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:56:22 : Entered GetStaffProfile
+02/12/2015 4:56:22 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:56:24 : Entered GetStaffProfile
+02/12/2015 4:56:24 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:56:26 : Entered GetStaffProfile
+02/12/2015 4:56:26 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:56:50 : Entered GetStaffProfile
+02/12/2015 4:56:50 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:56:55 : Entered GetStaffProfile
+02/12/2015 4:56:55 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:56:56 : Entered GetStaffProfile
+02/12/2015 4:56:56 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:56:58 : Entered GetStaffProfile
+02/12/2015 4:56:58 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:57:01 : Entered GetStaffProfile
+02/12/2015 4:57:01 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:58:41 : Entered GetStaffProfile
+02/12/2015 4:58:41 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:59:34 : Entered GetStaffProfile
+02/12/2015 4:59:34 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 4:59:39 : Entered GetStaffProfile
+02/12/2015 4:59:39 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:01:29 : Entered GetStaffProfile
+02/12/2015 5:01:29 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:02:20 : Entered GetStaffProfile
+02/12/2015 5:02:20 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:02:28 : Entered GetStaffProfile
+02/12/2015 5:02:28 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:02:32 : Entered GetStaffProfile
+02/12/2015 5:02:32 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:03:43 : Entered GetStaffProfile
+02/12/2015 5:03:44 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:24:48 : Entered GetStaffProfile
+02/12/2015 5:24:49 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:24:52 : Entered GetStaffProfile
+02/12/2015 5:24:52 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:24:53 : Entered GetStaffProfile
+02/12/2015 5:24:53 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:24:57 : Entered GetStaffProfile
+02/12/2015 5:24:57 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:25:00 : Entered GetStaffProfile
+02/12/2015 5:25:00 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:25:04 : Entered GetStaffProfile
+02/12/2015 5:25:04 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:25:05 : Entered GetStaffProfile
+02/12/2015 5:25:05 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:26:48 : Entered GetStaffProfile
+02/12/2015 5:26:48 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:27:50 : Entered GetStaffProfile
+02/12/2015 5:27:50 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:29:11 : Entered GetStaffProfile
+02/12/2015 5:29:11 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:31:54 : Entered GetStaffProfile
+02/12/2015 5:31:54 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:47:45 : Entered GetStaffProfile
+02/12/2015 5:47:45 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:47:47 : Entered GetStaffProfile
+02/12/2015 5:47:47 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:47:54 : Entered GetStaffProfile
+02/12/2015 5:47:54 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:47:55 : Entered GetStaffProfile
+02/12/2015 5:47:55 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:47:57 : Entered GetStaffProfile
+02/12/2015 5:47:57 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:48:05 : Entered GetStaffProfile
+02/12/2015 5:48:05 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:48:27 : Entered GetStaffProfile
+02/12/2015 5:48:27 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:48:42 : Entered GetStaffProfile
+02/12/2015 5:48:42 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:49:29 : Entered GetStaffProfile
+02/12/2015 5:49:29 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:54:05 : Entered GetStaffProfile
+02/12/2015 5:54:05 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:54:09 : Entered GetStaffProfile
+02/12/2015 5:54:09 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:54:11 : Entered GetStaffProfile
+02/12/2015 5:54:11 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:54:14 : Entered GetStaffProfile
+02/12/2015 5:54:14 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:54:16 : Entered GetStaffProfile
+02/12/2015 5:54:16 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:54:18 : Entered GetStaffProfile
+02/12/2015 5:54:18 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:54:22 : Entered GetStaffProfile
+02/12/2015 5:54:22 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:54:26 : Entered GetStaffProfile
+02/12/2015 5:54:26 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:54:29 : Entered GetStaffProfile
+02/12/2015 5:54:29 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:54:33 : Entered GetStaffProfile
+02/12/2015 5:54:33 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:54:36 : Entered GetStaffProfile
+02/12/2015 5:54:36 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:54:39 : Entered GetStaffProfile
+02/12/2015 5:54:39 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:54:48 : Entered GetStaffProfile
+02/12/2015 5:54:48 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:54:49 : Entered GetStaffProfile
+02/12/2015 5:54:50 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:54:55 : Entered GetStaffProfile
+02/12/2015 5:54:55 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:54:55 : Entered GetStaffProfile
+02/12/2015 5:54:55 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:54:57 : Entered GetStaffProfile
+02/12/2015 5:54:57 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:54:58 : Entered GetStaffProfile
+02/12/2015 5:54:58 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:54:58 : Entered GetStaffProfile
+02/12/2015 5:54:58 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:55:26 : Entered GetStaffProfile
+02/12/2015 5:55:26 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:56:00 : Entered GetStaffProfile
+02/12/2015 5:56:00 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:56:04 : Entered GetStaffProfile
+02/12/2015 5:56:04 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:56:06 : Entered GetStaffProfile
+02/12/2015 5:56:06 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:56:19 : Entered GetStaffProfile
+02/12/2015 5:56:20 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:56:32 : Entered GetStaffProfile
+02/12/2015 5:56:32 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:56:35 : Entered GetStaffProfile
+02/12/2015 5:56:35 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:56:45 : Entered GetStaffProfile
+02/12/2015 5:56:45 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:56:46 : Entered GetStaffProfile
+02/12/2015 5:56:46 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:57:00 : Entered GetStaffProfile
+02/12/2015 5:57:00 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:57:09 : Entered GetStaffProfile
+02/12/2015 5:57:10 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:57:20 : Entered GetStaffProfile
+02/12/2015 5:57:20 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:57:22 : Entered GetStaffProfile
+02/12/2015 5:57:22 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:57:31 : Entered GetStaffProfile
+02/12/2015 5:57:31 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:57:36 : Entered GetStaffProfile
+02/12/2015 5:57:36 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:57:40 : Entered GetStaffProfile
+02/12/2015 5:57:40 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:57:41 : Entered GetStaffProfile
+02/12/2015 5:57:41 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:57:53 : Entered GetStaffProfile
+02/12/2015 5:57:53 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:59:01 : Entered GetStaffProfile
+02/12/2015 5:59:01 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:59:09 : Entered GetStaffProfile
+02/12/2015 5:59:09 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:59:12 : Entered GetStaffProfile
+02/12/2015 5:59:12 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:59:15 : Entered GetStaffProfile
+02/12/2015 5:59:15 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:59:16 : Entered GetStaffProfile
+02/12/2015 5:59:16 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 5:59:18 : Entered GetStaffProfile
+02/12/2015 5:59:18 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 6:00:36 : Entered GetStaffProfile
+02/12/2015 6:00:36 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 6:00:48 : Entered GetStaffProfile
+02/12/2015 6:00:48 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 6:00:57 : Entered GetStaffProfile
+02/12/2015 6:00:57 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 6:01:01 : Entered GetStaffProfile
+02/12/2015 6:01:01 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 6:01:03 : Entered GetStaffProfile
+02/12/2015 6:01:03 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 6:01:46 : Entered GetStaffProfile
+02/12/2015 6:01:46 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 6:01:58 : Entered GetStaffProfile
+02/12/2015 6:01:58 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 6:02:06 : Entered GetStaffProfile
+02/12/2015 6:02:06 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 6:02:13 : Entered GetStaffProfile
+02/12/2015 6:02:13 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 6:03:14 : Entered GetStaffProfile
+02/12/2015 6:03:14 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 6:03:19 : Entered GetStaffProfile
+02/12/2015 6:03:19 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 6:05:31 : Entered GetStaffProfile
+02/12/2015 6:05:31 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 6:05:36 : Entered GetStaffProfile
+02/12/2015 6:05:36 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 6:05:39 : Entered GetStaffProfile
+02/12/2015 6:05:39 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 6:05:40 : Entered GetStaffProfile
+02/12/2015 6:05:40 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 6:05:42 : Entered GetStaffProfile
+02/12/2015 6:05:42 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 6:05:43 : Entered GetStaffProfile
+02/12/2015 6:05:43 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 6:05:44 : Entered GetStaffProfile
+02/12/2015 6:05:44 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 6:20:08 : Entered GetStaffProfile
+02/12/2015 6:20:08 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 6:21:27 : Entered GetStaffProfile
+02/12/2015 6:21:27 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:27:48 : Entered GetStaffProfile
+02/12/2015 7:27:48 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:27:50 : Entered GetStaffProfile
+02/12/2015 7:27:51 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:27:53 : Entered GetStaffProfile
+02/12/2015 7:27:53 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:27:55 : Entered GetStaffProfile
+02/12/2015 7:27:55 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:27:56 : Entered GetStaffProfile
+02/12/2015 7:27:56 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:27:57 : Entered GetStaffProfile
+02/12/2015 7:27:57 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:28:00 : Entered GetStaffProfile
+02/12/2015 7:28:00 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:28:34 : Entered GetStaffProfile
+02/12/2015 7:28:34 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:28:35 : Entered GetStaffProfile
+02/12/2015 7:28:35 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:28:36 : Entered GetStaffProfile
+02/12/2015 7:28:36 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:28:36 : Entered GetStaffProfile
+02/12/2015 7:28:37 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:28:38 : Entered GetStaffProfile
+02/12/2015 7:28:38 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:28:39 : Entered GetStaffProfile
+02/12/2015 7:28:39 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:28:42 : Entered GetStaffProfile
+02/12/2015 7:28:42 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:28:50 : Entered GetStaffProfile
+02/12/2015 7:28:50 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:28:55 : Entered GetStaffProfile
+02/12/2015 7:28:55 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:28:59 : Entered GetStaffProfile
+02/12/2015 7:28:59 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:29:00 : Entered GetStaffProfile
+02/12/2015 7:29:00 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:29:01 : Entered GetStaffProfile
+02/12/2015 7:29:01 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:29:03 : Entered GetStaffProfile
+02/12/2015 7:29:03 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:29:04 : Entered GetStaffProfile
+02/12/2015 7:29:04 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:29:08 : Entered GetStaffProfile
+02/12/2015 7:29:08 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:29:12 : Entered GetStaffProfile
+02/12/2015 7:29:12 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:29:14 : Entered GetStaffProfile
+02/12/2015 7:29:14 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:29:15 : Entered GetStaffProfile
+02/12/2015 7:29:15 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:29:17 : Entered GetStaffProfile
+02/12/2015 7:29:17 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:29:19 : Entered GetStaffProfile
+02/12/2015 7:29:20 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:29:23 : Entered GetStaffProfile
+02/12/2015 7:29:24 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:29:25 : Entered GetStaffProfile
+02/12/2015 7:29:25 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:29:28 : Entered GetStaffProfile
+02/12/2015 7:29:28 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:29:32 : Entered GetStaffProfile
+02/12/2015 7:29:32 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:29:34 : Entered GetStaffProfile
+02/12/2015 7:29:34 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:29:39 : Entered GetStaffProfile
+02/12/2015 7:29:39 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:29:44 : Entered GetStaffProfile
+02/12/2015 7:29:44 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:29:46 : Entered GetStaffProfile
+02/12/2015 7:29:46 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:30:19 : Entered GetStaffProfile
+02/12/2015 7:30:19 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:30:21 : Entered GetStaffProfile
+02/12/2015 7:30:21 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:30:22 : Entered GetStaffProfile
+02/12/2015 7:30:22 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:30:24 : Entered GetStaffProfile
+02/12/2015 7:30:24 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:30:25 : Entered GetStaffProfile
+02/12/2015 7:30:25 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:30:35 : Entered GetStaffProfile
+02/12/2015 7:30:35 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:30:37 : Entered GetStaffProfile
+02/12/2015 7:30:37 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:30:47 : Entered GetStaffProfile
+02/12/2015 7:30:47 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:31:04 : Entered GetStaffProfile
+02/12/2015 7:31:04 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:31:10 : Entered GetStaffProfile
+02/12/2015 7:31:10 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:31:19 : Entered GetStaffProfile
+02/12/2015 7:31:19 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:31:24 : Entered GetStaffProfile
+02/12/2015 7:31:24 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:32:00 : Entered GetStaffProfile
+02/12/2015 7:32:00 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:32:00 : Entered GetStaffProfile
+02/12/2015 7:32:01 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:32:01 : Entered GetStaffProfile
+02/12/2015 7:32:01 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:32:02 : Entered GetStaffProfile
+02/12/2015 7:32:03 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:32:04 : Entered GetStaffProfile
+02/12/2015 7:32:04 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:43:47 : Entered GetStaffProfile
+02/12/2015 7:43:48 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:44:28 : Entered GetStaffProfile
+02/12/2015 7:44:28 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:44:34 : Entered GetStaffProfile
+02/12/2015 7:44:34 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+02/12/2015 7:44:44 : Entered GetStaffProfile
+02/12/2015 7:44:44 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro

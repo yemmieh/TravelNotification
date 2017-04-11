@@ -1,0 +1,45 @@
+﻿@model List<MainTravelClass.ApprovalDetails>
+
+
+<div class="contentBody sixthcontentBody card" style="margin-top:-25px;">
+    <span class="stf_table_title" align="left">Request History<span class="sectionDescEx"> </span></span>
+    <div align="left" class="line"></div>
+    <div class="stf_optionsContainer">
+
+        <table class='viewTable'>
+
+
+
+
+            @if (Model != null && Model.Count() > 0)
+            {
+                <tr>
+                    <th>Staff Name</th>
+                    <th>Comment</th>
+                    <th>Action</th>
+                    <th>Request Stage</th>
+                    <th>Date Submitted</th>
+                   
+                </tr>
+                foreach (var RequestData in Model)
+                {
+                    <tr>
+                        <td>@RequestData.ApproverNames</td>
+                        <td>@RequestData.ApproverComment</td>
+                        <td>@RequestData.ApproverAction</td>
+                        <td>@RequestData.ApprovedStages</td>
+                        <td>@RequestData.ApprovalDateTime</td>
+
+                    </tr>
+
+                }
+            }
+            else
+            {
+              
+            }
+        </table>
+
+    </div>
+</div>
+

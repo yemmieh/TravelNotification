@@ -1,0 +1,14 @@
+10/12/2015 7:29:26 : Entered GetStaffProfile
+10/12/2015 7:29:27 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+10/12/2015 7:31:33 : Entered GetStaffProfile
+10/12/2015 7:31:34 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+10/12/2015 7:31:36 : Entered GetStaffProfile
+10/12/2015 7:31:36 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+10/12/2015 7:42:28 : Entered GetStaffProfile
+10/12/2015 7:42:29 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+10/12/2015 7:42:33 : Entered GetStaffProfile
+10/12/2015 7:42:33 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+10/12/2015 7:49:25 : Entered GetStaffProfile
+10/12/2015 7:49:26 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
+10/12/2015 7:49:30 : Entered GetStaffProfile
+10/12/2015 7:49:30 : GetStaffInformation : User found!!! / Oyeyemi.Oyetoro
